@@ -1,0 +1,105 @@
+{
+  "formId": null,
+  "showBack": true,
+  "skipOption": null,
+  "formTitle": {
+    "label": "Email Verification",
+    "labelColor": "#00a9ea",
+    "backgroundColor": null
+  },
+  "consentRequired": false,
+  "message": null,
+  "formGroup": [
+    {
+      "groupId": 1,
+      "groupTitle": {
+        "label": "Seems like your email address has not been verified. We have sent you an email with a verification code at himangshu@go4worldbusiness.com",
+        "labelColor": "#000",
+        "backgroundColor": null,
+        "fieldGroup": [
+          {
+            "numberOfColumns": null,
+            "fields": [
+              {
+                "fieldId": null,
+                "label": "Your Email",
+                "placeHolder": "",
+                "hintText": null,
+                "hintTextColor": null,
+                "type": "text",
+                "value": "himangshu@go4worldbusiness.com",
+                "key": "email",
+                "file": null,
+                "primary": {
+                  "show": false,
+                  "value": false
+                },
+                "aspectRatio": null,
+                "validator": {
+                  "minLength": null,
+                  "maxLength": null,
+                  "notEmpty": {
+                    "value": true,
+                    "message": "This field cannot be empty"
+                  },
+                  "regex": null
+                },
+                "validationMessage": null,
+                "valueArrayLimit": null,
+                "valueArray": null,
+                "referalValueOptions": null,
+                "options": null,
+                "selectedGroupOptionId": null,
+                "dependentFieldId": null,
+                "groupOptions": null,
+                "multiselectGroup": null,
+                "arrayOrdered": false
+              },
+              {
+                "fieldId": null,
+                "label": "Please entere the code from the email in the box below and click continue to proceed",
+                "placeHolder": "Email",
+                "hintText": null,
+                "hintTextColor": null,
+                "type": "textbox",
+                "value": "630154",
+                "key": "emailOtp",
+                "file": null,
+                "primary": {
+                  "show": false,
+                  "value": false
+                },
+                "aspectRatio": null,
+                "validator": {
+                  "minLength": null,
+                  "maxLength": null,
+                  "notEmpty": {
+                    "value": true,
+                    "message": "This field cannot be empty"
+                  },
+                  "regex": null
+                },
+                "validationMessage": null,
+                "valueArrayLimit": null,
+                "valueArray": null,
+                "referalValueOptions": null,
+                "options": null,
+                "selectedGroupOptionId": null,
+                "dependentFieldId": null,
+                "groupOptions": null,
+                "multiselectGroup": null,
+                "arrayOrdered": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "groupFormId": null,
+  "pageType": "COMPLETE",
+  "showSideMenu": true,
+  "formName": null,
+  "disabled": false,
+  "order": null
+}
